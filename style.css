@@ -1,34 +1,45 @@
 body{
+    background-image: url("background.jpg"); 
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
 }
 .nav-bar-top{
-    background-color: #aa89b2;
+    border:none;
     display: flex;
     flex-flow: row nowrap;
-    align-items: right;
-    justify-content: space-around;
-    padding: 10px 20px 10px 20px;
+    padding: 25px 30px 25px 30px;
+}
+.nav-bar-top-item.nav{
+    padding-left: 30px;
 }
 .nav-bar-top-item.text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40 px;
     font-weight: 200;
     font-style: normal;
-    color: white;
+    text-align: right;
+    color: #828282;
     text-decoration: none;
-    padding: 10px 0px 10px 0px;
+    padding: 0px 30px 0px 30px;
 }
 .nav-bar-top-item.text:hover{
     color:blueviolet;
     text-decoration: none;
+}
+.nav-bar-top-item.text:active{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
 }
 .nav-bar-top img{
     width: 30px;
     height: auto;
 }
 .introduction{
-    background-color: white;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -40,16 +51,19 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:blueviolet;
     font-weight: bold;
-    text-align: left;
+    padding: 0px;
+    margin:5px;
 }
 .introduction p{
-    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 19px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:darkgray;
-    text-align: left;
+    color: #828282;
 }
 .introduction-text{
     display: flex;
     flex-flow: column wrap;
+    justify-content: flex-start;
     width: 500px;
 }

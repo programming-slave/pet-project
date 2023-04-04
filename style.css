@@ -172,3 +172,44 @@ body{
     border: 3px solid white;
     width: 97%;
 }
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 30px;
+}
+.spotify-song{
+    background-color: rgb(255, 255, 255, 0.6); 
+    border-radius: 50px;
+    padding: 0px 20px 5px 20px;
+    margin: 0px 100px 150px 230px;
+    font-size: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 38%;
+}
+.spotify-song.text-song{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.spotify-song img{
+    width: 70px;
+    height: 70px;
+}
+footer h4{
+    color: #9755d4;
+}
+.spotify-song a{
+    text-decoration: none;
+}
+.right-side{
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 20px;
+}
+.footer p{
+    color:#402c53;
+}
+.right-left{
+    margin: 0px 10px 10px 10px;
+}
